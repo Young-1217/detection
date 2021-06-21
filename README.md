@@ -12,15 +12,4 @@ python tools/test.py configs/cascade_rpn/cascade_rcnn_x101_32x4d_caffe_fpn_1x_co
 Customize your image path according to the following directory：
 ![image](https://user-images.githubusercontent.com/54968734/122735489-a9845b00-d2b1-11eb-812f-dd8353db50d8.png)
 
-mmdetection
-├── mmdet
-├── tools
-├── configs
-├── data
-│   ├── coco
-│   │   ├── annotations
-│   │   ├── train2017
-│   │   ├── val2017
-│   │   ├── test2017
-
 and modify configs/_base_/datasets/coco_detection3.py data_root、ann_file、img_prefix
